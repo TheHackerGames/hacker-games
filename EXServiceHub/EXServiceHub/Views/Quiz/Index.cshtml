@@ -1,0 +1,330 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="/content/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/content/css/creative.css" rel="stylesheet">
+    <style>
+        .quiz div {
+            margin: 14px;
+            margin-bottom: 20px;            
+            border: 1px solid #ece7e7;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            padding: 10px;
+            background: #f0f0f0;
+            color: #000;
+            font-weight: bold;
+        }
+        .quiz div p:first-child {
+            margin-top: 40px;
+        }
+        .quiz p {
+            font-weight: normal;
+        }
+        .quiz i {
+            color: #2c97de;
+            font-size: x-large;
+            position: relative;
+            top: 4px;
+        }
+        input[type="button"] {
+            /* button style */
+            border: none;
+            background: #2c97de;
+            border-radius: .25em;
+            padding: 16px 20px;
+            color: #ffffff;
+            font-weight: bold;
+            float: right;
+            cursor: pointer;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+        }
+    </style>
+<script>
+    
+    function populate() {
+        $("#fullName").val("Daniel X");
+        $("#militaryService").show();
+        $("#levelAchieved").val("Major");
+        $("#area").val("100");
+        $("#sliders").show();
+    }
+</script>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #878787">INV<span style="
+                                                                                                                                color: #fcd505;
+                                                                                                                            ">I</span>CTUS <span style="
+                                                                                                                                                                     color: #fcd505;
+                                                                                                                                                                 ">FOR THE MIND</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4 class="section-heading">Product Manager Quiz</h4>
+                    <hr class="my-4" style="border-color: #fcd505;">
+                </div>
+                <div class="col-lg-12 mx-auto quiz">
+                    
+                    <div>
+                        The product manager's job involves:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	market analysis.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	planning product/product line related activities.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	developing marketing objectives/strategies.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	gaining support for his/her marketing program.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	all of the above.</p>
+                    </div><div>
+
+                        All of the following are characteristics of the product manager's job EXCEPT:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	narrow scope of responsibility.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	emphasis upon strategic decision making.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	focuses on single product/line.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	operates in a short-run time frame.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	the product manager does all of the above.</p>
+                    </div><div>
+
+                        Product-focuses organizations:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	are more common in the packaged goods industry.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	are the "classic" organizational form.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	are commonly used when several products share the same distribution system.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	all of the above</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	none of the above</p>
+                    </div><div>
+
+                        All of the following are advantages of the product management system EXCEPT:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	clear responsibility.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	clear source of product information.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	narrow product focus.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	provides valuable training for future executives.</p>
+                    </div><div>
+
+                        The product management system:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	may suffer from its very narrow focus.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	is a prime example of a "flat", decentralized structure.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	is especially useful when regional product tastes differ.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	encourages broad, strategic planning.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	promotes efficient use of the sales force.</p>
+                    </div><div>
+
+                        Brand names that share a common component are called:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	product groups.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	generic brands.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	family brands.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	pooled brands.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	store brands.</p>
+                    </div><div>
+
+                        Senior product managers may "burnout" as a result of:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	the explosion of marketing data.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	corporate downsizing.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	a short-term focus that stifles competition.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	increased pressure/responsibility with less autonomy.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	all of the above</p>
+                    </div><div>
+
+                        Market-focused organizations typically define segments by:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	industry.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	channel.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	region.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	customer size.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	any/all of the above</p>
+                    </div><div>
+
+                        Under a functionally-focused organization, the product manager:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	enjoys complete control.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	acts largely as a coordinator.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	focuses primarily on the product, rather than customers.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	encourages the use of system selling.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	competes with the other product managers in the firm.</p>
+                    </div><div>
+
+                        The functionality focused organization:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	places day-to-day responsibility upon the product manager.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	is administratively complex.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	places much of the planning responsibility upon the marketing vice-president.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	is best suited for large firms selling many, diverse products.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	none of the above
+                    </div><div>
+
+                        Under a _______________ sales organizational structure, each salesperson sells all products marketed by a division to a single market.
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	market/market</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	product/market</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	sales/customer</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	product/product</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	division/market</p>
+                    </div><div>
+
+                        All of the following are advantages of the product/product sales organizational structure EXCEPT:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	ease of administration.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	clear communications with manufacturing.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	clear communications with operations.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	clear communication above customer needs.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	effective cost control.</p>
+                    </div><div>
+
+                        ________________ is the attempt to market a product/service in worldwide markets under a standardized marketing strategy.
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	Product marketing</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	Standardized marketing</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	Generic marketing</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	Tactical marketing</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	Global marketing</p>
+                    </div><div>
+
+                        Global marketing:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	often begins with exporting.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	often uses local agents for distribution.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	often "breeds" strong local organizations.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	all of the above</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	none of the above</p>
+                    </div><div>
+
+                        Successful product managers share all of the following traits EXCEPT:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	a successful management history.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	attained PhD in marketing.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	strong communication skills.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	strong term-building skills.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	strong negotiation skills.</p>
+                    </div><div>
+
+                        According to product managers themselves, ________________ ability may be the single most critical "success" skill.
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	negotiation</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	team-building</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	analytical</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	statistical</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	research</p>
+                    </div><div>
+
+                        Product managers write marketing plans with input from:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	finance.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	operations.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	marketing communications.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	all of the above</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	none of the above</p>
+                    </div><div>
+
+                        In high-tech firms:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	product managers are often responsible for new product development.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	the internet is a vital source of customer feedback.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	the focus is heavily upon meeting new product development/launch goals.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	all of the above</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	none of the above</p>
+                    </div><div>
+
+                        Product management has been affected by:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	the growth of the web.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	the data explosion.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	the increased emphasis on brands.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	changes in the balance of power.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	all of the above</p>
+                    </div><div>
+
+                        Increased competition has greatly increased the importance of:
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> A)	brand switching.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> B)	databases.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> C)	customer retention.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> D)	advertising.</p>
+                        <p><i class="fa fa-square-o" aria-hidden="true"></i> E)	customer swapping.</p>
+                    </div>
+                    
+                    
+                    <input type="button" value="Signup" onclick="location.href = '/activities?answered'" style="width: 100%">
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/content/vendor/jquery/jquery.min.js"></script>
+    <script src="/content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/content/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/content/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="/content/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+<script src="/content/js/creative.min.js"></script>
+<script>
+    /*
+    if( $('.floating-labels').length > 0 ) floatLabels();
+ 
+    function floatLabels() {
+        var inputFields = $('.floating-labels .cd-label').next();
+	
+        inputFields.each(function(){
+            var singleInput = $(this);
+		
+            singleInput.keyup(function(){
+                checkVal(singleInput);	
+
+            });
+        });
+    }
+    */
+</script>
+
+</body>
+
+</html>
