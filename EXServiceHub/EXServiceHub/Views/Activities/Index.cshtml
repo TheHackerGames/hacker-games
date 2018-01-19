@@ -30,6 +30,9 @@
     <!-- Custom styles for this template -->
     <link href="/content/css/creative.css" rel="stylesheet">
 <style>
+    .answered-score {
+        display: none;    
+    } 
     .testimonial {
         margin-bottom: 10px;
     }
@@ -59,7 +62,11 @@
     .testimonial-desc {
         margin-top: 20px;
         text-align: left;
-        padding-left: 15px;
+        border:1px solid rgba(0,0,0,.1);
+    }
+
+    .testimonial-desc:hover {
+        background: #ece7e7;
     }
 
     .testimonial-desc img {
@@ -424,10 +431,11 @@
         text-align: center;
     }
 
-    time.pink {
-        background-color: #fff;
-        color: #000;
-    }
+        time.pink {
+            background-color: #fff;
+            color: #000;
+            min-height: 100%;
+        }
     time.purple {
         background-color: #2c97de;
         padding-top: 20px;
@@ -621,7 +629,7 @@
     <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #878787">INV<span style="
+        <a class="navbar-brand js-scroll-trigger" href="/" style="color: #878787">INV<span style="
                                                                                                                             color: #fcd505;
                                                                                                                         ">I</span>CTUS <span style="
                                                                                                                                                                  color: #fcd505;
@@ -655,67 +663,84 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h4 class="section-heading">Daniel’s profile</h4>
-                    <hr class="my-4"  style="border-color: #fcd505;" />
+                    <hr class="my-4" style="border-color: #fcd505;">
                 </div>
             </div>
-            
-            
+
+
 
 
             <div class="row">
-                
-                <div class="col-lg-3 col-md-6 text-center">                   
+
+                <div class="col-md-12 text-center">
                     <div class="service-box mx-auto">
                         <h5 style="font-weight: bold">Your skills rank in</h5>
                     </div>
                 </div>
-                
-                
-                <div class="col-lg-3 col-md-6 text-center">                   
+            </div>
+            <div class="row" style="
+                                                                                                                                                                                                                                                                                                                                    padding-top: 18px;
+                                                                                                                                                                                                                                                                                                                                    background: #2c97de;
+                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                                                                                                                                                                    margin-bottom: 14px;
+                                                                                                                                                                                                                                                                                                                                ">
+
+                <div class="col-6 text-center" style="
+                                                                                                                                                                                                                                                                                                                                                                         padding-left: 0;
+                                                                                                                                                                                                                                                                                                                                                                     ">
                     <div class="service-box mx-auto mb-4">
-                        <i class="fa fa-4x fa-users text-primary sr-icons" data-sr-id="2" style="; visibility: visible; -webkit-transform: scale(1); opacity: 1; transform: scale(1); opacity: 1; -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"></i>
-                        <p class="text-muted mb-0">Logistics</p>
-                    </div>                    
+                        <i class="fa fa-4x fa-users sr-icons" data-sr-id="2" style="; visibility: visible; -webkit-transform: scale(1); opacity: 1; transform: scale(1); opacity: 1; -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"></i>
+                        <p class="mb-0" style="">Logistics</p>
+                    </div>
                 </div>
-                
-                <div class="col-lg-3 col-md-6 text-center">
+
+                <div class="col-6 text-center" style="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          padding-left: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ">
 
                     <div class="service-box mx-auto  mb-1">
-                        <i class="fa fa-4x fa-briefcase text-primary sr-icons" data-sr-id="2" style="; visibility: visible; -webkit-transform: scale(1); opacity: 1; transform: scale(1); opacity: 1; -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"></i>
-                        <p class="text-muted mb-0">Project management</p>
+                        <i class="fa fa-4x fa-briefcase sr-icons" data-sr-id="2" style="; visibility: visible; -webkit-transform: scale(1); opacity: 1; transform: scale(1); opacity: 1; -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"></i>
+                        <p class="">Project management</p>
                     </div>
-                    <hr class="my-4" style="border-color: #fcd505;" />
+
                 </div>
 
-                <div class="col-lg-3 col-md-6 text-center">
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+
                     <div class="service-box mx-auto mb-4">
                         <h5 style="font-weight: bold">Currently skills may show an aptitude to these live jobs</h5>
                     </div>
+                </div>
 
-                        <div id="tb-testimonial" class="testimonial testimonial-default">
-                            <div class="testimonial-section">
-                                Business Analyst
+                
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div id="tb-testimonial" class="testimonial testimonial-default">
+                        <div class="testimonial-section">
+                            Business Analyst
+                        </div>
+                        <div class="testimonial-desc">
+                            <div class="testimonial-writer">
+                                <div class="testimonial-writer-namee">Technical Business Analyst</div>
+                                <div class="testimonial-writer-designation">d-flo Limited</div>
+                                <a href="#" class="testimonial-writer-company">Windsor</a>
                             </div>
-                            <div class="testimonial-desc">
-                                <div class="testimonial-writer">
-                                    <div class="testimonial-writer-name">Technical Business Analyst</div>
-                                    <div class="testimonial-writer-designation">d-flo Limited</div>
-                                    <a href="#" class="testimonial-writer-company">Windsor</a>
-                                </div>
-                            </div>
-                            <div class="testimonial-desc">
-                                <div class="testimonial-writer">
-                                    <div class="testimonial-writer-name">Business Analyst</div>
-                                    <div class="testimonial-writer-designation">Sweaty Betty</div>
-                                    <a href="#" class="testimonial-writer-company">London</a>
-                                </div>
+                        </div>
+                        <div class="testimonial-desc">
+                            <div class="testimonial-writer">
+                                <div class="testimonial-writer-namee">Business Analyst</div>
+                                <div class="testimonial-writer-designation">Sweaty Betty</div>
+                                <a href="#" class="testimonial-writer-company">London</a>
                             </div>
                         </div>
                     </div>
-                
-                
+                </div>
+
                 <div class="col-lg-3 col-md-6 text-center">
-                    
+
 
                     <div id="tb-testimonial" class="testimonial testimonial-default">
                         <div class="testimonial-section">
@@ -723,34 +748,34 @@
                         </div>
                         <div class="testimonial-desc">
                             <div class="testimonial-writer">
-                                <div class="testimonial-writer-name">Product Manager</div>
+                                <div class="testimonial-writer-namee">Product Manager</div>
                                 <div class="testimonial-writer-designation">Explore</div>
                                 <a href="#" class="testimonial-writer-company">London</a>
                             </div>
                         </div>
                         <div class="testimonial-desc">
                             <div class="testimonial-writer">
-                                <div class="testimonial-writer-name">Junior Product Manager</div>
+                                <div class="testimonial-writer-namee">Junior Product Manager</div>
                                 <div class="testimonial-writer-designation">Experian</div>
                                 <a href="#" class="testimonial-writer-company">London</a>
                             </div>
                         </div>
                     </div>
                     
-                    <hr class="my-4" style="border-color: #fcd505;" />
 
                 </div>
 
 
-                </div>
-            
-            
+            </div>
+
+
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center mb-4">
+                <div class="col-md-12 text-center mb-4">
+                    <hr class="my-4" style="border-color: #fcd505;">
                     <h5 style="font-weight: bold">Get a better understanding of your skills playing with our quiz</h5>
                 </div>
             </div>
-            
+
 
             <div class="row">
 
@@ -760,7 +785,7 @@
                             <h6 style="color: #000;font-weight: bold;">Problem solving expert?</h6>
                         </div>
                         <div class="panel-body nopadding">
-                            <img src="/Content/img/problem-solving.jpg" alt="event image" class="img-responsive"/>
+                            <img src="/Content/img/problem-solving-1.jpg" alt="event image" class="img-responsive">
                             <div class="row nopadding">
                                 <div class="col-sm-6 nopadding">
                                     <time class="start pink">
@@ -769,7 +794,7 @@
                                     </time>
                                 </div>
                                 <div class="col-sm-6 nopadding">
-                                    <time class="end purple">                                        
+                                    <time class="end purple">
                                         <span class="month">Take the quiz</span>
                                     </time>
                                 </div>
@@ -786,8 +811,8 @@
                             </h6>
                         </div>
                         <div class="panel-body nopadding">
-                            <img src="/Content/img/project-managment.jpg" alt="event image" class="img-responsive"/>
-                            <div class="row nopadding">
+                            <img src="/Content/img/project-managment-1.jpg" alt="event image" class="img-responsive">
+                            <div class="row nopadding no-score">
                                 <div class="col-sm-6 nopadding">
                                     <time class="start pink">
                                         Average score
@@ -795,9 +820,32 @@
                                     </time>
                                 </div>
                                 <div class="col-sm-6 nopadding">
-                                    <time class="end purple" onclick="document.location.href='/quiz'">                                        
+                                    <time class="end purple" onclick="document.location.href='/quiz'">
                                         <span class="month">Take the quiz</span>
                                     </time>
+                                </div>
+                            </div>
+                            <div class="answered-score" >
+                                <div class="row">
+                                    <div class="col-6" style="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         padding-right: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     "><time class="start pink">
+                                        Average score
+                                        <span class="month">43%</span>
+                                    </time></div>
+                                    <div class="col-6" style="
+                                         padding-left: 0;
+                                     "><time class="start pink" style="color: #2c97de !important;">
+                                        Your score
+                                        <span class="month">83%</span>
+                                    </time></div>
+                                </div>
+                                <div class="row nopadding">                  
+                                    <div class="col-md-12 nopadding">
+                                        <time class="end purple" onclick="document.location.href='/quiz'">
+                                            <span class="month">Retake the quiz</span>
+                                        </time>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -821,7 +869,16 @@
     <script>
         $(function() {
             if (document.location.href.indexOf('answered') > -1)
-                $(".badge").show();
+            {
+                $(".no-score").hide();
+                $(".answered-score").show();
+
+                $('html, body').animate({ 
+                        scrollTop: $(document).height()}, 
+                    1400, 
+                    "easeOutQuint"
+                );
+            }
         });
     </script>
 
