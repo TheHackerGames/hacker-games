@@ -143,8 +143,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ActivitiesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QuizController.cs" />
+    <Compile Include="Controllers\QuizesController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,8 +180,12 @@
     <Content Include="Content\img\portfolio\thumbnails\4.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\5.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\6.jpg" />
+    <Content Include="Content\img\problem-solving-1.jpg" />
     <Content Include="Content\img\problem-solving.jpg" />
+    <Content Include="Content\img\project-managment-1.jpg" />
     <Content Include="Content\img\project-managment.jpg" />
+    <Content Include="Content\img\courses.png" />
+    <Content Include="Content\img\quizes.png" />
     <Content Include="Content\js\creative.js" />
     <Content Include="Content\js\creative.min.js" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.css" />
@@ -273,6 +279,8 @@
     <Content Include="Views\Register\Index.cshtml" />
     <Content Include="Views\Activities\Index.cshtml" />
     <Content Include="Views\Quiz\Index.cshtml" />
+    <Content Include="Views\Quizes\Index.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
