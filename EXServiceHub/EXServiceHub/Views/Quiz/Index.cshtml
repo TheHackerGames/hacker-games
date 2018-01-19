@@ -30,18 +30,21 @@
     <!-- Custom styles for this template -->
     <link href="/content/css/creative.css" rel="stylesheet">
     <style>
-        .quiz div {
-            margin: 14px;
-            margin-bottom: 20px;            
-            border: 1px solid #ece7e7;
-            border-radius: 4px;
-            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-            box-shadow: 0 1px 1px rgba(0,0,0,.05);
-            padding: 10px;
-            background: #f0f0f0;
-            color: #000;
-            font-weight: bold;
+        body {
+            font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
         }
+         .quiz div {
+             margin: 14px;
+             margin-bottom: 20px;            
+             border: 1px solid #ece7e7;
+             border-radius: 4px;
+             -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+             box-shadow: 0 1px 1px rgba(0,0,0,.05);
+             padding: 10px;
+             background: #f0f0f0;
+             color: #000;
+             font-weight: bold;
+         }
         .quiz div p:first-child {
             margin-top: 40px;
         }
@@ -297,13 +300,15 @@
     <!-- Custom scripts for this template -->
 <script src="/content/js/creative.min.js"></script>
 <script>      
-        function scrollDown() {
-            $('html, body').animate({ 
-                    scrollTop: $(document).height()}, 
-                1400, 
-                "easeOutQuint"
-            );
-        }
+    function scrollDown() {
+        $("p:nth-child(3n+1)").find("i").attr("class", "fa fa-square");
+
+        $('html, body').animate({ 
+                scrollTop: $(document).height()}, 
+            1400, 
+            "easeOutQuint"
+        );
+    }
 </script>
 
 </body>
