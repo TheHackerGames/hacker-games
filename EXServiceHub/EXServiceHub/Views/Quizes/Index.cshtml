@@ -399,14 +399,8 @@
     }
 
     .panel {
-        margin: 14px;
-        margin-bottom: 20px;
         color: #fcd505;
-        border: 1px solid #ece7e7;
-        border-radius: 4px;
-        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-        box-shadow: 0 1px 1px rgba(0,0,0,.05);
-        padding: 10px;
+        padding: 29px;
         background: #f0f0f0;
     }
     .panel-footer {
@@ -433,15 +427,15 @@
 
         time.pink {
             background-color: #fff;
-            color: #000;
+            color: #878787;
             min-height: 100%;
         }
-    time.purple {
-        background-color: #2c97de;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    }
+        time.purple {
+            background-color: #878787;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        }
 
     time.dkblue {
         background-color: #336699;
@@ -662,25 +656,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h4 class="section-heading">Get a better understanding of your skills playing with our quiz</h4>
+                    <h4 class="section-heading">Quick Drill</h4>
+                    <p style="font-size: 12px; padding-left: 40px; padding-right: 40px;">
+                        Get a better understanding of your skills playing with our quiz
+                    </p>
                     <hr class="my-4" style="border-color: #fcd505;">
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
             <div class="row">
 
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="padding: 0;">
                     <div class="panel panel-primary event-primary">
                         <div class="panel-heading">
                             <h6 style="color: #000;font-weight: bold;">Problem solving expert?</h6>
@@ -689,10 +675,24 @@
                             <img src="/Content/img/problem-solving.png" alt="event image" class="img-responsive">
                             <div class="row nopadding">
                                 <div class="col-sm-6 nopadding">
-                                    <time class="start pink">
-                                        Average score
-                                        <span class="month">67%</span>
-                                    </time>
+                                    <div class="row">
+                                        <div class="col-6" style="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                padding-right: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ">
+                                            <time class="start pink">
+                                                Average score
+                                                <span class="month">67%</span>
+                                            </time>
+                                        </div>
+                                        <div class="col-6" style="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              padding-left: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
+                                            <time class="start pink" style="color: #2c97de !important;">
+                                                Your score
+                                                <span class="month">--%</span>
+                                            </time>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-6 nopadding">
                                     <time class="end purple">
@@ -703,7 +703,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="padding: 0;">
                     <div class="panel panel-primary event-primary">
                         <div class="panel-heading">
                             <h6 style="color: #000; font-weight: bold;">
@@ -716,8 +716,8 @@
                             <div class="no-score">
                                 <div class="row">
                                     <div class="col-6" style="
-                                                                                                                                                                                                                                                                                                                                                                                                                         padding-right: 0;
-                                                                                                                                                                                                                                                                                                                                                                                                                     ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         padding-right: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ">
                                         <time class="start pink">
                                             Average score
                                             <span class="month">43%</span>
@@ -726,9 +726,9 @@
                                     <div class="col-6" style="
                                                                                                                                                                                                                                                                                                                                                                                                                                                               padding-left: 0;
                                                                                                                                                                                                                                                                                                                                                                                                                                                           ">
-                                        <time class="start pink" style="color: #2c97de !important;">
+                                        <time class="start pink">
                                             Your score
-                                            <span class="month">??%</span>
+                                            <span class="month">--%</span>
                                         </time>
                                     </div>
                                 </div>
@@ -743,8 +743,8 @@
                             <div class="answered-score">
                                 <div class="row">
                                     <div class="col-6" style="
-                                                                                                                                                                                                                                                                                                                                                                                                                         padding-right: 0;
-                                                                                                                                                                                                                                                                                                                                                                                                                     ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   padding-right: 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ">
                                         <time class="start pink">
                                             Average score
                                             <span class="month">43%</span>
@@ -753,7 +753,7 @@
                                     <div class="col-6" style="
                                                                                                                                                                                                                                                                                                                                                                                                                                                               padding-left: 0;
                                                                                                                                                                                                                                                                                                                                                                                                                                                           ">
-                                        <time class="start pink" style="color: #2c97de !important;">
+                                        <time class="start pink">
                                             Your score
                                             <span class="month">83%</span>
                                         </time>
@@ -771,12 +771,17 @@
                         </div>
                     </div>
                     
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+
                     <input type="button" value="Back to profile" onclick="location.href = '/activities'" style="width: 100%;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    color: rgba(0,0,0,.5);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    border-color: rgba(0,0,0,.1);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    background-color: #fff;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    height: 60px;">
-
                 </div>
             </div>
         </div>
